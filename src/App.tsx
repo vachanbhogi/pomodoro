@@ -38,6 +38,13 @@ function App() {
       >
         break
       </button>
+      <a
+        className="bg-white px-8 py-4 m-2 rounded-2xl drop-shadow-2xl bg-opacity-50"
+        href='https://github.com/vachanbhogi/pomodoro'
+        target="_blank"
+      >
+        code
+      </a>
     </div>
   </div>
 );
