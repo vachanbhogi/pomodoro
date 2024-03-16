@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 function App() {
-  const [time, setTime] = useState(25 * 60);
-  const [timer, setTimer] = useState(null);
+  const [time, setTime] = useState<number>(25 * 60);
+  const [timer, setTimer] = useState<Boolean | null>(null);
 
   useEffect(() => {
     if (timer){
